@@ -1,0 +1,7 @@
+node_modules
+.git
+.mongo-data
+unfazed-frontend/dist
+uploads/invoices/*
+!uploads/backups/data_snapshot.json
+*.log

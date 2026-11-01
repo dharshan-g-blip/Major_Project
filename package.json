@@ -1,0 +1,20 @@
+{
+  "name": "unfazed-major-project",
+  "version": "1.0.0",
+  "description": "Unfazed - SaaS platform for therapists in India (Single-Port Architecture)",
+  "scripts": {
+    "start:backend": "cd unfazed-backend && npm start",
+    "start:frontend": "cd unfazed-frontend && npm run dev",
+    "start": "cd unfazed-backend && npm start",
+    "dev:backend": "cd unfazed-backend && npm run dev",
+    "dev:frontend": "cd unfazed-frontend && npm run dev",
+    "build:frontend": "cd unfazed-frontend && npm run build",
+    "build": "cd unfazed-frontend && npm install && npm run build",
+    "install:backend": "cd unfazed-backend && npm install",
+    "install:frontend": "cd unfazed-frontend && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "seed": "cd unfazed-backend && npm run seed",
+    "test": "cd unfazed-backend && npm test"
+  },
+  "keywords": ["therapy", "saas", "mental-health", "india", "practice-management"]
+}
