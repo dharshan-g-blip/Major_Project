@@ -1,0 +1,32 @@
+# ====================================================================
+# NETLIFY DEPLOYMENT CONFIGURATION FOR SERENOVA / UNFAZED
+# ====================================================================
+
+[build]
+  # Base directory where frontend source code lives
+  base = "unfazed-frontend"
+
+  # Directory that contains the deploy-ready HTML files and assets
+  publish = "dist"
+
+  # Build command to compile Vite React SPA
+  command = "npm install && npm run build"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# SPA Single Page Application Routing Rule:
+# Ensures deep links like /portal, /dr-sharma, /login don't return 404
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Optional API Proxy:
+# If you deploy your backend on Render (e.g. https://serenova-api.onrender.com),
+# uncomment the lines below to route all /api calls seamlessly through Netlify:
+# [[redirects]]
+#   from = "/api/*"
+#   to = "https://YOUR_BACKEND_URL.onrender.com/api/:splat"
+#   status = 200
+#   force = true
