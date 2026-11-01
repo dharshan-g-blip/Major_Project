@@ -12,9 +12,18 @@ class BackupService {
   constructor() {
     this.backupDir = path.join(__dirname, '../../uploads/backups');
     if (!fs.existsSync(this.backupDir)) {
-      fs.mkdirSync(this.backupDir, { recursive: true });
+      try {
+        fs.mkdirSync(this.backupDir, { recursive: true });
+      } catch (e) {}
     }
+    this.bundledBackupPath = path.join(__dirname, '../data/data_snapshot.json');
     this.latestBackupPath = path.join(this.backupDir, 'data_snapshot.json');
+  }
+
+  getSnapshotReadPath() {
+    if (fs.existsSync(this.latestBackupPath)) return this.latestBackupPath;
+    if (fs.existsSync(this.bundledBackupPath)) return this.bundledBackupPath;
+    return null;
   }
 
   /**
@@ -74,11 +83,12 @@ class BackupService {
         return { restored: false, reason: 'Database already contains data' };
       }
 
-      if (!fs.existsSync(this.latestBackupPath)) {
+      const readPath = this.getSnapshotReadPath();
+      if (!readPath) {
         return { restored: false, reason: 'No snapshot file found' };
       }
 
-      const raw = fs.readFileSync(this.latestBackupPath, 'utf8');
+      const raw = fs.readFileSync(readPath, 'utf8');
       const snapshot = JSON.parse(raw);
       const data = snapshot.data || {};
 
@@ -99,14 +109,14 @@ class BackupService {
   }
 
   getBackupStatus() {
-    const exists = fs.existsSync(this.latestBackupPath);
-    if (!exists) {
+    const readPath = this.getSnapshotReadPath();
+    if (!readPath) {
       return { exists: false, healthy: false, message: 'No backup file generated yet' };
     }
-    const stats = fs.statSync(this.latestBackupPath);
+    const stats = fs.statSync(readPath);
     let counts = null;
     try {
-      const raw = fs.readFileSync(this.latestBackupPath, 'utf8');
+      const raw = fs.readFileSync(readPath, 'utf8');
       const parsed = JSON.parse(raw);
       counts = parsed.counts;
     } catch (e) {}
@@ -117,7 +127,7 @@ class BackupService {
       counts,
       lastModified: stats.mtime,
       sizeBytes: stats.size,
-      filePath: this.latestBackupPath,
+      filePath: readPath,
     };
   }
 }
