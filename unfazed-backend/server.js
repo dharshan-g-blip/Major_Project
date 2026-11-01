@@ -2,6 +2,7 @@ const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '.env') });
 const http = require('http');
 const { Server } = require('socket.io');
+const mongoose = require('mongoose');
 
 const app = require('./src/app');
 const connectDB = require('./src/config/db');
@@ -75,12 +76,14 @@ const startServer = async () => {
   // 1. Connect MongoDB
   await connectDB();
 
-  // 2. Ensure Tier configs exist
-  await seedDefaultTiers();
-
-  // 3. Fallback database check & automatic backup snapshot
-  await backupService.restoreIfEmpty();
-  await backupService.exportSnapshot();
+  // 2. If MongoDB is connected, ensure tier configs & database seeding
+  if (mongoose.connection.readyState === 1) {
+    await seedDefaultTiers();
+    await backupService.restoreIfEmpty();
+    await backupService.exportSnapshot();
+  } else {
+    console.warn('[Database] Running in resilient offline mode with pre-loaded snapshot data.');
+  }
 
   // 3. Create HTTP Server
   const server = http.createServer(app);

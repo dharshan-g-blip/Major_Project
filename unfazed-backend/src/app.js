@@ -68,6 +68,10 @@ app.post('/api/backup/trigger', async (req, res) => {
   });
 });
 
+// Resilient Fallback Middleware: Serves snapshot data if MongoDB is temporarily offline/unreachable
+const mockDbFallback = require('./middleware/mockDbFallback');
+app.use('/api', mockDbFallback);
+
 // API Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/therapist', therapistRoutes);

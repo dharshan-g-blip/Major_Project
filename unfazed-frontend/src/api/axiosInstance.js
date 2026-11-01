@@ -10,6 +10,7 @@ const isStaticOrNetlifyHost = () => {
 
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_BASE_URL || '/api',
+  timeout: 4000,
   headers: {
     'Content-Type': 'application/json',
   },
@@ -40,9 +41,15 @@ api.interceptors.request.use(
 api.interceptors.response.use(
   (response) => response,
   (error) => {
-    // Transparent fallback: If an API endpoint returns 404 or fails to connect,
+    // Transparent fallback: If an API endpoint returns 404, 500, or fails to connect,
     // seamlessly handle it with mockDataAdapter instead of showing an error to the user
-    if (error.response?.status === 404 || error.code === 'ERR_NETWORK' || !error.response) {
+    if (
+      !error.response ||
+      error.response.status >= 500 ||
+      error.response.status === 404 ||
+      error.code === 'ERR_NETWORK' ||
+      error.code === 'ECONNABORTED'
+    ) {
       const mockRes = handleMockRequest(error.config);
       if (mockRes) {
         return Promise.resolve(mockRes);
