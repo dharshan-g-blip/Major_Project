@@ -1,0 +1,1888 @@
+{
+  "therapists": [
+    {
+      "_id": "6ae768350d8fafb9763a68bc",
+      "name": "Dr. Ananya Sharma",
+      "email": "dr.sharma@unfazed.in",
+      "password_hash": "$2b$10$pAPH0vMuPg.8HINMgh4ct.xSFtSb92bCA37hWrxbeFU9TaQl8ugxS",
+      "slug": "dr-sharma",
+      "bio": "Compassionate, evidence-based psychotherapy helping individuals unpack anxiety, relationship patterns, and chronic workplace burnout. Grounded in Cognitive Behavioral Therapy (CBT) and Mindfulness practices.",
+      "specializations": [
+        "Anxiety & Panic",
+        "CBT",
+        "Workplace Burnout",
+        "Trauma Recovery",
+        "Interpersonal Relationships"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Bengali"
+      ],
+      "qualifications": "Ph.D. in Clinical Psychology (NIMHANS), RCI Reg. CRR-A78912",
+      "experienceYears": 8,
+      "sessionFee": 2500,
+      "bufferTime": 15,
+      "allowedDurations": [
+        30,
+        45,
+        60,
+        90
+      ],
+      "subscriptionTier": "pro",
+      "avatarUrl": "",
+      "phone": "+91 98450 12345",
+      "clinicAddress": "MindSpace Clinic, 12th Main Indiranagar, Bangalore & Online Telehealth",
+      "createdAt": "2026-11-01T16:26:29.444Z",
+      "updatedAt": "2026-11-01T16:26:29.444Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a68be",
+      "name": "Dr. Rajesh Menon",
+      "email": "dr.menon@unfazed.in",
+      "password_hash": "$2b$10$pAPH0vMuPg.8HINMgh4ct.xSFtSb92bCA37hWrxbeFU9TaQl8ugxS",
+      "slug": "dr-menon",
+      "bio": "Senior clinical psychologist specializing in Acceptance & Commitment Therapy (ACT) and adult neurodivergence. Helping clients build psychological flexibility, overcome depressive inertia, and cultivate life purpose.",
+      "specializations": [
+        "Depression & Mood Disorders",
+        "ACT",
+        "Men's Mental Health",
+        "ADHD & Focus",
+        "Existential Therapy"
+      ],
+      "languages": [
+        "English",
+        "Malayalam",
+        "Hindi",
+        "Tamil"
+      ],
+      "qualifications": "M.Phil in Clinical Psychology (AIIMS Delhi), RCI Reg. CRR-B45219",
+      "experienceYears": 11,
+      "sessionFee": 2200,
+      "bufferTime": 15,
+      "allowedDurations": [
+        30,
+        45,
+        60
+      ],
+      "subscriptionTier": "pro",
+      "avatarUrl": "",
+      "phone": "+91 98765 11223",
+      "clinicAddress": "Wellness Pavilion, MG Road, Kochi & Online Telehealth",
+      "createdAt": "2026-11-01T16:26:29.446Z",
+      "updatedAt": "2026-11-01T16:26:29.446Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a68c0",
+      "name": "Dr. Priya Nair",
+      "email": "dr.nair@unfazed.in",
+      "password_hash": "$2b$10$pAPH0vMuPg.8HINMgh4ct.xSFtSb92bCA37hWrxbeFU9TaQl8ugxS",
+      "slug": "dr-nair",
+      "bio": "Specialist in systemic family dynamics, relational attunement, and couples therapy using Emotion-Focused Therapy (EFT). Dedicated to creating emotionally safe containers for couples and families in transition.",
+      "specializations": [
+        "Couples Counseling",
+        "Family Therapy",
+        "Emotion-Focused Therapy (EFT)",
+        "Attachment Styles",
+        "Conflict Resolution"
+      ],
+      "languages": [
+        "English",
+        "Hindi",
+        "Marathi"
+      ],
+      "qualifications": "Psy.D. in Clinical Psychology, RCI Reg. CRR-C99321",
+      "experienceYears": 9,
+      "sessionFee": 2800,
+      "bufferTime": 15,
+      "allowedDurations": [
+        45,
+        60,
+        90
+      ],
+      "subscriptionTier": "pro",
+      "avatarUrl": "",
+      "phone": "+91 97654 99887",
+      "clinicAddress": "Bandra West Healing Center, Mumbai & Online Telehealth",
+      "createdAt": "2026-11-01T16:26:29.447Z",
+      "updatedAt": "2026-11-01T16:26:29.447Z",
+      "__v": 0
+    }
+  ],
+  "clients": [
+    {
+      "_id": "6ae768350d8fafb9763a68ef",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "name": "Rohan Verma",
+      "email": "rohan.verma@example.com",
+      "phone": "+91 99887 76655",
+      "status": "active",
+      "tags": [
+        "Weekly CBT",
+        "Workplace Anxiety",
+        "Tech Lead"
+      ],
+      "intakeForm": {
+        "dob": "1992-06-14",
+        "gender": "Male",
+        "occupation": "Staff Software Engineer at Fintech startup",
+        "emergencyContact": "Neha Verma (Spouse)",
+        "emergencyPhone": "+91 99887 76654",
+        "presentingConcern": "Testing date fix precision",
+        "therapyHistory": "Attended 4 sessions of counseling 3 years ago during career switch.",
+        "medicalHistory": "Mild hypertension managed with lifestyle; no psychotropic medication.",
+        "goals": "Learn tangible CBT techniques to de-escalate anxiety and establish firm boundaries.",
+        "submittedAt": "2026-11-01T19:28:14.690Z"
+      },
+      "consent": {
+        "agreed": true,
+        "timestamp": "2026-11-01T19:28:14.694Z",
+        "ipAddress": "::1",
+        "version": "1.0"
+      },
+      "lastSessionDate": "2026-11-03T05:35:00.000Z",
+      "totalSessions": 11,
+      "createdAt": "2026-11-01T16:26:29.462Z",
+      "updatedAt": "2026-11-01T19:28:14.702Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a68f1",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "name": "Pooja Iyer",
+      "email": "pooja.iyer@example.com",
+      "phone": "+91 98221 44556",
+      "status": "active",
+      "tags": [
+        "Bi-Weekly",
+        "Trauma",
+        "Grief"
+      ],
+      "intakeForm": {
+        "dob": "1995-11-20",
+        "gender": "Female",
+        "occupation": "Senior Content Strategist",
+        "emergencyContact": "Karthik Iyer (Brother)",
+        "emergencyPhone": "+91 98221 44557",
+        "presentingConcern": "Work-life balance, imposter syndrome in leadership position.",
+        "therapyHistory": "First time entering therapy.",
+        "medicalHistory": "None reported.",
+        "goals": "Self-compassion practice and stress reduction.",
+        "submittedAt": "2026-11-01T19:30:41.720Z"
+      },
+      "consent": {
+        "agreed": true,
+        "timestamp": "2026-11-01T19:30:41.721Z",
+        "ipAddress": "::1",
+        "version": "1.0"
+      },
+      "lastSessionDate": "2026-11-06T04:30:00.000Z",
+      "totalSessions": 7,
+      "createdAt": "2026-11-01T16:26:29.464Z",
+      "updatedAt": "2026-11-01T19:30:41.722Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a68f3",
+      "therapist_id": "6ae768350d8fafb9763a68be",
+      "name": "Vikramaditya Rao",
+      "email": "vikram.rao@example.com",
+      "phone": "+91 98765 43210",
+      "status": "active",
+      "tags": [
+        "Bi-Weekly ACT",
+        "Adult ADHD",
+        "Executive Burnout"
+      ],
+      "intakeForm": {
+        "dob": "1988-04-12",
+        "gender": "Male",
+        "occupation": "VP of Product Management",
+        "emergencyContact": "Anjali Rao (Partner)",
+        "emergencyPhone": "+91 98765 43219",
+        "presentingConcern": "Chronic procrastination followed by intense panic hyper-focus cycles. Low mood on weekends.",
+        "therapyHistory": "Previously consulted psychiatrist for adult ADHD diagnosis.",
+        "medicalHistory": "Prescribed Atomoxetine under psychiatric supervision.",
+        "goals": "Develop psychological flexibility and realistic work-rest boundaries using ACT principles.",
+        "submittedAt": "2026-10-02T16:26:29.464Z"
+      },
+      "consent": {
+        "agreed": true,
+        "timestamp": "2026-10-02T16:26:29.464Z",
+        "ipAddress": "49.207.18.22",
+        "version": "1.0"
+      },
+      "lastSessionDate": "2026-10-28T16:26:29.464Z",
+      "totalSessions": 5,
+      "createdAt": "2026-11-01T16:26:29.465Z",
+      "updatedAt": "2026-11-01T16:26:29.465Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a68f5",
+      "therapist_id": "6ae768350d8fafb9763a68be",
+      "name": "Sneha Kapoor",
+      "email": "sneha.kapoor@example.com",
+      "phone": "+91 98112 33445",
+      "status": "active",
+      "tags": [
+        "Depression Support",
+        "Mindfulness",
+        "Career Transition"
+      ],
+      "intakeForm": {
+        "dob": "1995-08-19",
+        "gender": "Female",
+        "occupation": "Brand Strategist",
+        "emergencyContact": "Sunita Kapoor (Mother)",
+        "emergencyPhone": "+91 98112 33440",
+        "presentingConcern": "Feelings of emptiness, loss of interest in passions, chronic rumination regarding future security.",
+        "therapyHistory": "Self-help books and meditation retreats.",
+        "medicalHistory": "None reported.",
+        "goals": "Reconnect with personal values and learn cognitive defusion techniques.",
+        "submittedAt": "2026-10-07T16:26:29.466Z"
+      },
+      "consent": {
+        "agreed": true,
+        "timestamp": "2026-10-07T16:26:29.466Z",
+        "ipAddress": "103.21.124.9",
+        "version": "1.0"
+      },
+      "lastSessionDate": "2026-10-26T16:26:29.466Z",
+      "totalSessions": 3,
+      "createdAt": "2026-11-01T16:26:29.466Z",
+      "updatedAt": "2026-11-01T16:26:29.466Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a68f7",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "name": "Aarav Malhotra",
+      "email": "aarav.malhotra@example.com",
+      "phone": "+91 97654 32198",
+      "status": "active",
+      "tags": [
+        "Couples Therapy",
+        "Anxious Attachment",
+        "Communication"
+      ],
+      "intakeForm": {
+        "dob": "1991-12-05",
+        "gender": "Male",
+        "occupation": "Management Consultant",
+        "emergencyContact": "Rhea Malhotra (Spouse)",
+        "emergencyPhone": "+91 98554 77880",
+        "presentingConcern": "Relational friction, communication breakdown in long-term partnership.",
+        "therapyHistory": "Attended joint couple workshop last year.",
+        "medicalHistory": "None reported.",
+        "goals": "Deepen emotional attunement using Emotion-Focused Therapy.",
+        "submittedAt": "2026-11-01T18:45:33.366Z"
+      },
+      "consent": {
+        "agreed": true,
+        "timestamp": "2026-11-01T18:45:33.366Z",
+        "ipAddress": "::1",
+        "version": "1.0"
+      },
+      "lastSessionDate": "2026-11-04T11:05:00.000Z",
+      "totalSessions": 8,
+      "createdAt": "2026-11-01T16:26:29.467Z",
+      "updatedAt": "2026-11-01T18:45:33.368Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a68f9",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "name": "Meera Sen",
+      "email": "meera.sen@example.com",
+      "phone": "+91 98301 22334",
+      "status": "active",
+      "tags": [
+        "Family Systems",
+        "Enmeshment Boundaries",
+        "Creative Professional"
+      ],
+      "intakeForm": {
+        "dob": "1996-04-18",
+        "gender": "Female",
+        "occupation": "UX Research Lead",
+        "emergencyContact": "Debashish Sen (Father)",
+        "emergencyPhone": "+91 98665 88991",
+        "presentingConcern": "Attachment anxiety, difficulty with emotional vulnerability.",
+        "therapyHistory": "First time seeking psychotherapy.",
+        "medicalHistory": "None reported.",
+        "goals": "Build emotional safety and heal core attachment injuries.",
+        "submittedAt": "2026-11-01T19:34:08.977Z"
+      },
+      "consent": {
+        "agreed": true,
+        "timestamp": "2026-11-01T19:34:08.977Z",
+        "ipAddress": "::1",
+        "version": "1.0"
+      },
+      "lastSessionDate": "2026-11-05T05:35:00.000Z",
+      "totalSessions": 4,
+      "createdAt": "2026-11-01T16:26:29.468Z",
+      "updatedAt": "2026-11-01T19:34:08.978Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae77e0f66ee897cc17c850d",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "name": "Aarav Malhotra",
+      "email": "aarav.malhotra173@example.com",
+      "phone": "+91 98765 43210",
+      "status": "active",
+      "tags": [
+        "Registered Client"
+      ],
+      "intakeForm": {
+        "dob": "",
+        "gender": "",
+        "occupation": "",
+        "emergencyContact": "",
+        "emergencyPhone": "",
+        "presentingConcern": "",
+        "therapyHistory": "",
+        "medicalHistory": "",
+        "goals": "",
+        "submittedAt": null
+      },
+      "consent": {
+        "agreed": true,
+        "timestamp": "2026-11-01T17:59:43.133Z",
+        "ipAddress": "::1",
+        "version": "1.0"
+      },
+      "lastSessionDate": null,
+      "totalSessions": 0,
+      "createdAt": "2026-11-01T17:59:43.148Z",
+      "updatedAt": "2026-11-01T17:59:43.148Z",
+      "__v": 0
+    }
+  ],
+  "sessions": [
+    {
+      "_id": "6ae768350d8fafb9763a68fb",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68ef",
+      "clientName": "Rohan Verma",
+      "clientEmail": "rohan.verma@example.com",
+      "clientPhone": "+91 99887 76655",
+      "startTime": "2026-11-02T04:30:00.000Z",
+      "endTime": "2026-11-02T05:20:00.000Z",
+      "durationMinutes": 50,
+      "status": "completed",
+      "meetingLink": "/meet/session-6ae768350d8fafb9763a68ef-upcoming",
+      "sessionType": "CBT Consultation",
+      "fee": 2500,
+      "paymentStatus": "paid",
+      "payment_id": null,
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T16:26:29.470Z",
+      "updatedAt": "2026-11-01T19:38:32.808Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a68fd",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68ef",
+      "clientName": "Rohan Verma",
+      "clientEmail": "rohan.verma@example.com",
+      "clientPhone": "+91 99887 76655",
+      "startTime": "2026-10-25T04:30:00.000Z",
+      "endTime": "2026-10-25T05:20:00.000Z",
+      "durationMinutes": 50,
+      "status": "completed",
+      "meetingLink": "/meet/session-6ae768350d8fafb9763a68ef-prev",
+      "sessionType": "CBT Consultation",
+      "fee": 2500,
+      "paymentStatus": "paid",
+      "payment_id": "6ae768350d8fafb9763a68ff",
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T16:26:29.471Z",
+      "updatedAt": "2026-11-01T16:26:29.473Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a690a",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68f1",
+      "clientName": "Pooja Iyer",
+      "clientEmail": "pooja.iyer@example.com",
+      "clientPhone": "+91 98221 44556",
+      "startTime": "2026-11-03T04:30:00.000Z",
+      "endTime": "2026-11-03T05:20:00.000Z",
+      "durationMinutes": 50,
+      "status": "scheduled",
+      "meetingLink": "/meet/session-6ae768350d8fafb9763a68f1-upcoming",
+      "sessionType": "Grief & Bereavement Support",
+      "fee": 2500,
+      "paymentStatus": "paid",
+      "payment_id": null,
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T16:26:29.480Z",
+      "updatedAt": "2026-11-01T16:26:29.480Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a690c",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68f1",
+      "clientName": "Pooja Iyer",
+      "clientEmail": "pooja.iyer@example.com",
+      "clientPhone": "+91 98221 44556",
+      "startTime": "2026-10-27T04:30:00.000Z",
+      "endTime": "2026-10-27T05:20:00.000Z",
+      "durationMinutes": 50,
+      "status": "completed",
+      "meetingLink": "/meet/session-6ae768350d8fafb9763a68f1-prev",
+      "sessionType": "Grief & Bereavement Support",
+      "fee": 2500,
+      "paymentStatus": "paid",
+      "payment_id": "6ae768350d8fafb9763a690e",
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T16:26:29.481Z",
+      "updatedAt": "2026-11-01T16:26:29.482Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6919",
+      "therapist_id": "6ae768350d8fafb9763a68be",
+      "client_id": "6ae768350d8fafb9763a68f3",
+      "clientName": "Vikramaditya Rao",
+      "clientEmail": "vikram.rao@example.com",
+      "clientPhone": "+91 98765 43210",
+      "startTime": "2026-11-04T04:30:00.000Z",
+      "endTime": "2026-11-04T05:20:00.000Z",
+      "durationMinutes": 50,
+      "status": "scheduled",
+      "meetingLink": "/meet/session-6ae768350d8fafb9763a68f3-upcoming",
+      "sessionType": "ACT & Executive Functioning",
+      "fee": 2200,
+      "paymentStatus": "paid",
+      "payment_id": null,
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T16:26:29.486Z",
+      "updatedAt": "2026-11-01T16:26:29.486Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a691b",
+      "therapist_id": "6ae768350d8fafb9763a68be",
+      "client_id": "6ae768350d8fafb9763a68f3",
+      "clientName": "Vikramaditya Rao",
+      "clientEmail": "vikram.rao@example.com",
+      "clientPhone": "+91 98765 43210",
+      "startTime": "2026-10-28T04:30:00.000Z",
+      "endTime": "2026-10-28T05:20:00.000Z",
+      "durationMinutes": 50,
+      "status": "completed",
+      "meetingLink": "/meet/session-6ae768350d8fafb9763a68f3-prev",
+      "sessionType": "ACT & Executive Functioning",
+      "fee": 2200,
+      "paymentStatus": "paid",
+      "payment_id": "6ae768350d8fafb9763a691d",
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T16:26:29.487Z",
+      "updatedAt": "2026-11-01T16:26:29.488Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6928",
+      "therapist_id": "6ae768350d8fafb9763a68be",
+      "client_id": "6ae768350d8fafb9763a68f5",
+      "clientName": "Sneha Kapoor",
+      "clientEmail": "sneha.kapoor@example.com",
+      "clientPhone": "+91 98112 33445",
+      "startTime": "2026-11-05T04:30:00.000Z",
+      "endTime": "2026-11-05T05:20:00.000Z",
+      "durationMinutes": 50,
+      "status": "scheduled",
+      "meetingLink": "/meet/session-6ae768350d8fafb9763a68f5-upcoming",
+      "sessionType": "Mindfulness & Mood Stabilization",
+      "fee": 2200,
+      "paymentStatus": "paid",
+      "payment_id": null,
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T16:26:29.491Z",
+      "updatedAt": "2026-11-01T16:26:29.491Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a692a",
+      "therapist_id": "6ae768350d8fafb9763a68be",
+      "client_id": "6ae768350d8fafb9763a68f5",
+      "clientName": "Sneha Kapoor",
+      "clientEmail": "sneha.kapoor@example.com",
+      "clientPhone": "+91 98112 33445",
+      "startTime": "2026-10-26T04:30:00.000Z",
+      "endTime": "2026-10-26T05:20:00.000Z",
+      "durationMinutes": 50,
+      "status": "completed",
+      "meetingLink": "/meet/session-6ae768350d8fafb9763a68f5-prev",
+      "sessionType": "Mindfulness & Mood Stabilization",
+      "fee": 2200,
+      "paymentStatus": "paid",
+      "payment_id": "6ae768350d8fafb9763a692c",
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T16:26:29.492Z",
+      "updatedAt": "2026-11-01T16:26:29.493Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6937",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f7",
+      "clientName": "Aarav Malhotra",
+      "clientEmail": "aarav.malhotra@example.com",
+      "clientPhone": "+91 97654 32198",
+      "startTime": "2026-11-03T04:30:00.000Z",
+      "endTime": "2026-11-03T05:20:00.000Z",
+      "durationMinutes": 50,
+      "status": "scheduled",
+      "meetingLink": "/meet/session-6ae768350d8fafb9763a68f7-upcoming",
+      "sessionType": "Couples & Relational Attunement",
+      "fee": 2800,
+      "paymentStatus": "paid",
+      "payment_id": null,
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T16:26:29.497Z",
+      "updatedAt": "2026-11-01T16:26:29.497Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6939",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f7",
+      "clientName": "Aarav Malhotra",
+      "clientEmail": "aarav.malhotra@example.com",
+      "clientPhone": "+91 97654 32198",
+      "startTime": "2026-10-29T04:30:00.000Z",
+      "endTime": "2026-10-29T05:20:00.000Z",
+      "durationMinutes": 50,
+      "status": "completed",
+      "meetingLink": "/meet/session-6ae768350d8fafb9763a68f7-prev",
+      "sessionType": "Couples & Relational Attunement",
+      "fee": 2800,
+      "paymentStatus": "paid",
+      "payment_id": "6ae768350d8fafb9763a693b",
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T16:26:29.498Z",
+      "updatedAt": "2026-11-01T16:26:29.499Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6946",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f9",
+      "clientName": "Meera Sen",
+      "clientEmail": "meera.sen@example.com",
+      "clientPhone": "+91 98301 22334",
+      "startTime": "2026-11-06T04:30:00.000Z",
+      "endTime": "2026-11-06T05:20:00.000Z",
+      "durationMinutes": 50,
+      "status": "scheduled",
+      "meetingLink": "/meet/session-6ae768350d8fafb9763a68f9-upcoming",
+      "sessionType": "Family Systems & Boundaries",
+      "fee": 2800,
+      "paymentStatus": "paid",
+      "payment_id": null,
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T16:26:29.502Z",
+      "updatedAt": "2026-11-01T16:26:29.502Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6948",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f9",
+      "clientName": "Meera Sen",
+      "clientEmail": "meera.sen@example.com",
+      "clientPhone": "+91 98301 22334",
+      "startTime": "2026-10-28T04:30:00.000Z",
+      "endTime": "2026-10-28T05:20:00.000Z",
+      "durationMinutes": 50,
+      "status": "completed",
+      "meetingLink": "/meet/session-6ae768350d8fafb9763a68f9-prev",
+      "sessionType": "Family Systems & Boundaries",
+      "fee": 2800,
+      "paymentStatus": "paid",
+      "payment_id": "6ae768350d8fafb9763a694a",
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T16:26:29.503Z",
+      "updatedAt": "2026-11-01T16:26:29.505Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae78dc2d132a74ed74fcbf5",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68ef",
+      "clientName": "Rohan Verma",
+      "clientEmail": "rohan.verma@example.com",
+      "clientPhone": "+91 99887 76655",
+      "startTime": "2026-11-05T10:00:00.000Z",
+      "endTime": "2026-11-05T10:50:00.000Z",
+      "durationMinutes": 50,
+      "status": "scheduled",
+      "meetingLink": "/meet/6ae78dc2d132a74ed74fcbf5",
+      "sessionType": "Individual Therapy",
+      "fee": 2500,
+      "paymentStatus": "paid",
+      "payment_id": "6ae78dc2d132a74ed74fcc04",
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T19:06:42.490Z",
+      "updatedAt": "2026-11-01T19:06:42.819Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae78f31d132a74ed74fcc40",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68f1",
+      "clientName": "Pooja Iyer",
+      "clientEmail": "pooja.iyer@example.com",
+      "clientPhone": "+91 98221 44556",
+      "startTime": "2026-11-03T10:00:00.000Z",
+      "endTime": "2026-11-03T10:50:00.000Z",
+      "durationMinutes": 50,
+      "status": "scheduled",
+      "meetingLink": "/meet/6ae78f31d132a74ed74fcc40",
+      "sessionType": "Individual Therapy",
+      "fee": 2500,
+      "paymentStatus": "paid",
+      "payment_id": "6ae78f33d132a74ed74fcc44",
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T19:12:49.810Z",
+      "updatedAt": "2026-11-01T19:12:51.728Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae78f6ed132a74ed74fcc70",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68f1",
+      "clientName": "Pooja Iyer",
+      "clientEmail": "pooja.iyer@example.com",
+      "clientPhone": "+91 98221 44556",
+      "startTime": "2026-11-02T10:00:00.000Z",
+      "endTime": "2026-11-02T10:50:00.000Z",
+      "durationMinutes": 50,
+      "status": "scheduled",
+      "meetingLink": "/meet/6ae78f6ed132a74ed74fcc70",
+      "sessionType": "Individual Therapy",
+      "fee": 2500,
+      "paymentStatus": "paid",
+      "payment_id": "6ae78f70d132a74ed74fcc74",
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T19:13:50.452Z",
+      "updatedAt": "2026-11-01T19:13:52.751Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae792ce00cab49555b1947e",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68ef",
+      "clientName": "Rohan Verma",
+      "clientEmail": "rohan.verma@example.com",
+      "clientPhone": "+91 99887 76655",
+      "startTime": "2026-11-03T05:35:00.000Z",
+      "endTime": "2026-11-03T06:25:00.000Z",
+      "durationMinutes": 50,
+      "status": "no_show",
+      "meetingLink": "/meet/6ae792ce00cab49555b1947e",
+      "sessionType": "Individual Therapy",
+      "fee": 2500,
+      "paymentStatus": "paid",
+      "payment_id": "6ae792ce00cab49555b19483",
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T19:28:14.715Z",
+      "updatedAt": "2026-11-01T19:39:43.443Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae7936100cab49555b194bf",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68f1",
+      "clientName": "Pooja Iyer",
+      "clientEmail": "pooja.iyer@example.com",
+      "clientPhone": "+91 98221 44556",
+      "startTime": "2026-11-06T04:30:00.000Z",
+      "endTime": "2026-11-06T05:20:00.000Z",
+      "durationMinutes": 50,
+      "status": "scheduled",
+      "meetingLink": "/meet/6ae7936100cab49555b194bf",
+      "sessionType": "Individual Therapy",
+      "fee": 2500,
+      "paymentStatus": "paid",
+      "payment_id": "6ae7936300cab49555b194c3",
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T19:30:41.726Z",
+      "updatedAt": "2026-11-01T19:30:44.030Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae7943000cab49555b1950b",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f9",
+      "clientName": "Meera Sen",
+      "clientEmail": "meera.sen@example.com",
+      "clientPhone": "+91 98301 22334",
+      "startTime": "2026-11-05T05:35:00.000Z",
+      "endTime": "2026-11-05T06:25:00.000Z",
+      "durationMinutes": 50,
+      "status": "scheduled",
+      "meetingLink": "/meet/6ae7943000cab49555b1950b",
+      "sessionType": "Individual Therapy",
+      "fee": 2800,
+      "paymentStatus": "paid",
+      "payment_id": "6ae7943200cab49555b1950f",
+      "client_package_id": null,
+      "cancellationReason": "",
+      "timezone": "Asia/Kolkata",
+      "waitlist": [],
+      "createdAt": "2026-11-01T19:34:08.985Z",
+      "updatedAt": "2026-11-01T19:34:10.954Z",
+      "__v": 0
+    }
+  ],
+  "payments": [
+    {
+      "_id": "6ae768350d8fafb9763a68ff",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68ef",
+      "session_id": "6ae768350d8fafb9763a68fd",
+      "package_id": null,
+      "order_id": "order_6ae768350d8fafb9763a68ef_prev",
+      "gateway_transaction_id": "pay_rzp_6ae768350d8fafb9763a68ef_prev",
+      "amount": 2500,
+      "currency": "INR",
+      "platform_fee": 125,
+      "gst_amount": 0,
+      "net_amount": 2375,
+      "status": "captured",
+      "invoice_number": "INV-2026-6002",
+      "invoice_url": "",
+      "payment_method": "UPI",
+      "description": "CBT Consultation (50m)",
+      "createdAt": "2026-10-25T04:30:00.000Z",
+      "updatedAt": "2026-10-25T04:30:00.000Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a690e",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68f1",
+      "session_id": "6ae768350d8fafb9763a690c",
+      "package_id": null,
+      "order_id": "order_6ae768350d8fafb9763a68f1_prev",
+      "gateway_transaction_id": "pay_rzp_6ae768350d8fafb9763a68f1_prev",
+      "amount": 2500,
+      "currency": "INR",
+      "platform_fee": 125,
+      "gst_amount": 0,
+      "net_amount": 2375,
+      "status": "captured",
+      "invoice_number": "INV-2026-4526",
+      "invoice_url": "",
+      "payment_method": "UPI",
+      "description": "Grief & Bereavement Support (50m)",
+      "createdAt": "2026-10-27T04:30:00.000Z",
+      "updatedAt": "2026-10-27T04:30:00.000Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a691d",
+      "therapist_id": "6ae768350d8fafb9763a68be",
+      "client_id": "6ae768350d8fafb9763a68f3",
+      "session_id": "6ae768350d8fafb9763a691b",
+      "package_id": null,
+      "order_id": "order_6ae768350d8fafb9763a68f3_prev",
+      "gateway_transaction_id": "pay_rzp_6ae768350d8fafb9763a68f3_prev",
+      "amount": 2200,
+      "currency": "INR",
+      "platform_fee": 110,
+      "gst_amount": 0,
+      "net_amount": 2090,
+      "status": "captured",
+      "invoice_number": "INV-2026-4469",
+      "invoice_url": "",
+      "payment_method": "UPI",
+      "description": "ACT & Executive Functioning (50m)",
+      "createdAt": "2026-10-28T04:30:00.000Z",
+      "updatedAt": "2026-10-28T04:30:00.000Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a692c",
+      "therapist_id": "6ae768350d8fafb9763a68be",
+      "client_id": "6ae768350d8fafb9763a68f5",
+      "session_id": "6ae768350d8fafb9763a692a",
+      "package_id": null,
+      "order_id": "order_6ae768350d8fafb9763a68f5_prev",
+      "gateway_transaction_id": "pay_rzp_6ae768350d8fafb9763a68f5_prev",
+      "amount": 2200,
+      "currency": "INR",
+      "platform_fee": 110,
+      "gst_amount": 0,
+      "net_amount": 2090,
+      "status": "captured",
+      "invoice_number": "INV-2026-2162",
+      "invoice_url": "",
+      "payment_method": "UPI",
+      "description": "Mindfulness & Mood Stabilization (50m)",
+      "createdAt": "2026-10-26T04:30:00.000Z",
+      "updatedAt": "2026-10-26T04:30:00.000Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a693b",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f7",
+      "session_id": "6ae768350d8fafb9763a6939",
+      "package_id": null,
+      "order_id": "order_6ae768350d8fafb9763a68f7_prev",
+      "gateway_transaction_id": "pay_rzp_6ae768350d8fafb9763a68f7_prev",
+      "amount": 2800,
+      "currency": "INR",
+      "platform_fee": 140,
+      "gst_amount": 0,
+      "net_amount": 2660,
+      "status": "captured",
+      "invoice_number": "INV-2026-2099",
+      "invoice_url": "",
+      "payment_method": "UPI",
+      "description": "Couples & Relational Attunement (50m)",
+      "createdAt": "2026-10-29T04:30:00.000Z",
+      "updatedAt": "2026-10-29T04:30:00.000Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a694a",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f9",
+      "session_id": "6ae768350d8fafb9763a6948",
+      "package_id": null,
+      "order_id": "order_6ae768350d8fafb9763a68f9_prev",
+      "gateway_transaction_id": "pay_rzp_6ae768350d8fafb9763a68f9_prev",
+      "amount": 2800,
+      "currency": "INR",
+      "platform_fee": 140,
+      "gst_amount": 0,
+      "net_amount": 2660,
+      "status": "captured",
+      "invoice_number": "INV-2026-2202",
+      "invoice_url": "",
+      "payment_method": "UPI",
+      "description": "Family Systems & Boundaries (50m)",
+      "createdAt": "2026-10-28T04:30:00.000Z",
+      "updatedAt": "2026-10-28T04:30:00.000Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae78795c9908baa0962722f",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f7",
+      "session_id": "6ae7878fc9908baa0962722b",
+      "package_id": null,
+      "order_id": "order_y8swl3nyly",
+      "gateway_transaction_id": "pay_test_1793558421092",
+      "amount": 2800,
+      "currency": "INR",
+      "platform_fee": 140,
+      "gst_amount": 0,
+      "net_amount": 2660,
+      "status": "captured",
+      "invoice_number": "INV-2026-8075",
+      "invoice_url": "/api/payments/invoice/INV-2026-8075.pdf",
+      "payment_method": "UPI",
+      "description": "Clinical Psychotherapy Consultation",
+      "createdAt": "2026-11-01T18:40:21.109Z",
+      "updatedAt": "2026-11-01T18:40:21.159Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae787b1c9908baa0962723e",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f7",
+      "session_id": "6ae787acc9908baa09627239",
+      "package_id": null,
+      "order_id": "order_fgmqgaetbp",
+      "gateway_transaction_id": "pay_fallback_1793558449496",
+      "amount": 2800,
+      "currency": "INR",
+      "platform_fee": 140,
+      "gst_amount": 0,
+      "net_amount": 2660,
+      "status": "captured",
+      "invoice_number": "INV-2026-8327",
+      "invoice_url": "/api/payments/invoice/INV-2026-8327.pdf",
+      "payment_method": "UPI",
+      "description": "Clinical Psychotherapy Consultation",
+      "createdAt": "2026-11-01T18:40:49.512Z",
+      "updatedAt": "2026-11-01T18:40:49.535Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae788efc9908baa09627262",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f7",
+      "session_id": "6ae788cdc9908baa0962725c",
+      "package_id": null,
+      "order_id": "order_z2p12n8277",
+      "gateway_transaction_id": "pay_1793558767981_swuj",
+      "amount": 2800,
+      "currency": "INR",
+      "platform_fee": 140,
+      "gst_amount": 0,
+      "net_amount": 2660,
+      "status": "captured",
+      "invoice_number": "INV-2026-2249",
+      "invoice_url": "/api/payments/invoice/INV-2026-2249.pdf",
+      "payment_method": "UPI",
+      "description": "Individual Psychotherapy Session",
+      "createdAt": "2026-11-01T18:46:07.993Z",
+      "updatedAt": "2026-11-01T18:46:08.035Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae78dc2d132a74ed74fcc04",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68ef",
+      "session_id": "6ae78dc2d132a74ed74fcbf5",
+      "package_id": null,
+      "order_id": "order_111jtycr8y",
+      "gateway_transaction_id": "pay_verify_1793560002771",
+      "amount": 2500,
+      "currency": "INR",
+      "platform_fee": 125,
+      "gst_amount": 0,
+      "net_amount": 2375,
+      "status": "captured",
+      "invoice_number": "INV-2026-4595",
+      "invoice_url": "/api/payments/invoice/INV-2026-4595.pdf",
+      "payment_method": "UPI",
+      "description": "Clinical Psychotherapy Consultation",
+      "createdAt": "2026-11-01T19:06:42.782Z",
+      "updatedAt": "2026-11-01T19:06:42.817Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae78f33d132a74ed74fcc44",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68f1",
+      "session_id": "6ae78f31d132a74ed74fcc40",
+      "package_id": null,
+      "order_id": "order_vbzlymc4gz",
+      "gateway_transaction_id": "pay_1793560371668_1ftk",
+      "amount": 2500,
+      "currency": "INR",
+      "platform_fee": 125,
+      "gst_amount": 0,
+      "net_amount": 2375,
+      "status": "captured",
+      "invoice_number": "INV-2026-1681",
+      "invoice_url": "/api/payments/invoice/INV-2026-1681.pdf",
+      "payment_method": "UPI",
+      "description": "Individual Psychotherapy Session",
+      "createdAt": "2026-11-01T19:12:51.681Z",
+      "updatedAt": "2026-11-01T19:12:51.725Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae78f70d132a74ed74fcc74",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68f1",
+      "session_id": "6ae78f6ed132a74ed74fcc70",
+      "package_id": null,
+      "order_id": "order_nfuwtq1o34",
+      "gateway_transaction_id": "pay_1793560432694_y0j8",
+      "amount": 2500,
+      "currency": "INR",
+      "platform_fee": 125,
+      "gst_amount": 0,
+      "net_amount": 2375,
+      "status": "captured",
+      "invoice_number": "INV-2026-2636",
+      "invoice_url": "/api/payments/invoice/INV-2026-2636.pdf",
+      "payment_method": "UPI",
+      "description": "Individual Psychotherapy Session",
+      "createdAt": "2026-11-01T19:13:52.707Z",
+      "updatedAt": "2026-11-01T19:13:52.747Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae792ce00cab49555b19483",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68ef",
+      "session_id": "6ae792ce00cab49555b1947e",
+      "package_id": null,
+      "order_id": "order_test_1793561294723",
+      "gateway_transaction_id": "pay_test_1793561294723",
+      "amount": 2500,
+      "currency": "INR",
+      "platform_fee": 125,
+      "gst_amount": 0,
+      "net_amount": 2375,
+      "status": "captured",
+      "invoice_number": "INV-2026-6290",
+      "invoice_url": "/api/payments/invoice/INV-2026-6290.pdf",
+      "payment_method": "UPI",
+      "description": "Clinical Psychotherapy Consultation",
+      "createdAt": "2026-11-01T19:28:14.737Z",
+      "updatedAt": "2026-11-01T19:28:14.794Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae7936300cab49555b194c3",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68f1",
+      "session_id": "6ae7936100cab49555b194bf",
+      "package_id": null,
+      "order_id": "order_5brz9cnrql",
+      "gateway_transaction_id": "pay_1793561443954_8tol",
+      "amount": 2500,
+      "currency": "INR",
+      "platform_fee": 125,
+      "gst_amount": 0,
+      "net_amount": 2375,
+      "status": "captured",
+      "invoice_number": "INV-2026-4793",
+      "invoice_url": "/api/payments/invoice/INV-2026-4793.pdf",
+      "payment_method": "UPI",
+      "description": "Individual Psychotherapy Session",
+      "createdAt": "2026-11-01T19:30:43.969Z",
+      "updatedAt": "2026-11-01T19:30:44.026Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae7943200cab49555b1950f",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f9",
+      "session_id": "6ae7943000cab49555b1950b",
+      "package_id": null,
+      "order_id": "order_mu4qb21gpj",
+      "gateway_transaction_id": "pay_1793561650891_5hhd",
+      "amount": 2800,
+      "currency": "INR",
+      "platform_fee": 140,
+      "gst_amount": 0,
+      "net_amount": 2660,
+      "status": "captured",
+      "invoice_number": "INV-2026-6311",
+      "invoice_url": "/api/payments/invoice/INV-2026-6311.pdf",
+      "payment_method": "UPI",
+      "description": "Individual Psychotherapy Session",
+      "createdAt": "2026-11-01T19:34:10.902Z",
+      "updatedAt": "2026-11-01T19:34:10.946Z",
+      "__v": 0
+    }
+  ],
+  "notes": [
+    {
+      "_id": "6ae768350d8fafb9763a6906",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68ef",
+      "session_id": null,
+      "title": "Session 5: Diagnostic Hypotheses & Catastrophizing Schemas",
+      "type": "private",
+      "format": "soap",
+      "content": "",
+      "soap": {
+        "subjective": "Client reports sudden panic surge during quarterly budget review. Heart rate 110 bpm, fear of catastrophic failure.",
+        "objective": "Affect congruent with anxiety. Mild psychomotor agitation. Denies suicidal ideation. GAD-7: 14.",
+        "assessment": "Perfectionistic coping schema triggering sympathetic flight-or-fight response under evaluation.",
+        "plan": "1. Introduce thought record diary.\n2. Physiological sigh technique for acute panic.\n3. Session 6: Behavioral delegation experiment."
+      },
+      "dap": {
+        "data": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "tags": [
+        "CBT",
+        "Panic Disorder",
+        "Confidential"
+      ],
+      "createdAt": "2026-11-01T16:26:29.477Z",
+      "updatedAt": "2026-11-01T16:26:29.477Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6907",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68ef",
+      "session_id": null,
+      "title": "Weekly Reflections: Decatastrophizing & The Physiological Sigh",
+      "type": "shared",
+      "format": "freeform",
+      "content": "<h3>Key Insights from Today's Session</h3>\n<p>Remember that a spike in heart rate during a high-stakes meeting is simply your body's sympathetic nervous system gearing up for performance—it is not evidence that you are failing.</p>\n<h4>Your Action Homework for the Week:</h4>\n<ul>\n  <li><strong>The 2-Breath Physiological Sigh:</strong> Two quick inhales through the nose followed by one long, slow sigh through the mouth whenever you notice muscle tension.</li>\n  <li><strong>Thought Record Journal:</strong> When an anxious thought arises (\"They will realize I don't know this\"), write down:\n    <ol>\n      <li>What is the worst that can happen?</li>\n      <li>What is the most likely outcome based on past experience?</li>\n      <li>If my closest friend had this thought, what compassionate advice would I offer them?</li>\n    </ol>\n  </li>\n</ul>\n<p>Be gentle with yourself this week. You are building new neural pathways!</p>",
+      "soap": {
+        "subjective": "",
+        "objective": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "dap": {
+        "data": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "tags": [
+        "Homework",
+        "Psychoeducation",
+        "Breathing Exercises"
+      ],
+      "createdAt": "2026-11-01T16:26:29.477Z",
+      "updatedAt": "2026-11-01T16:26:29.477Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6915",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68f1",
+      "session_id": null,
+      "title": "Session 3: Dual Process Model of Bereavement",
+      "type": "private",
+      "format": "soap",
+      "content": "",
+      "soap": {
+        "subjective": "Client discussed wave of guilt when laughing at a social event last weekend. Recalled feeling disloyal to deceased parent.",
+        "objective": "Tearful during loss narrative. Good insight and emotional responsiveness.",
+        "assessment": "Oscillation between loss-oriented and restoration-oriented coping is natural. Normalization provided noticeable relief.",
+        "plan": "Continue grief narrative processing. Introduce memory ritual before bed to mitigate evening rumination."
+      },
+      "dap": {
+        "data": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "tags": [
+        "Bereavement",
+        "Grief Counseling"
+      ],
+      "createdAt": "2026-11-01T16:26:29.484Z",
+      "updatedAt": "2026-11-01T16:26:29.484Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6916",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "client_id": "6ae768350d8fafb9763a68f1",
+      "session_id": null,
+      "title": "Grief & Permission to Experience Joy",
+      "type": "shared",
+      "format": "freeform",
+      "content": "<h3>Remember:</h3>\n<p>Grief does not shrink over time; rather, our lives expand around it. Feeling moments of lightness, laughter, or engagement in your art is not a betrayal of your memory—it is how your spirit rests and heals.</p>\n<h4>Gentle Reflection Prompt:</h4>\n<p>Whenever grief feels heavy, light a small candle or take 3 deep breaths and write one thing you are grateful your parent shared with you.</p>",
+      "soap": {
+        "subjective": "",
+        "objective": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "dap": {
+        "data": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "tags": [
+        "Shared Reflections",
+        "Grief Support"
+      ],
+      "createdAt": "2026-11-01T16:26:29.484Z",
+      "updatedAt": "2026-11-01T16:26:29.484Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6925",
+      "therapist_id": "6ae768350d8fafb9763a68be",
+      "client_id": "6ae768350d8fafb9763a68f3",
+      "session_id": null,
+      "title": "Cognitive Defusion: You Are Not Your Thoughts",
+      "type": "shared",
+      "format": "freeform",
+      "content": "<h3>Mindset Shift: Cognitive Defusion</h3>\n<p>Instead of saying <em>\"I am inadequate at managing this team,\"</em> practice saying <em>\"I notice my mind is generating the thought that I am inadequate.\"</em> Notice the space between the observer and the thought.</p>\n<h4>Weekly Action Experiment:</h4>\n<ul>\n  <li>Identify one task this week where \"80% good enough\" is sufficient, and deliberately submit it without secondary revisions.</li>\n  <li>Notice what physical sensations arise, breathe into them, and do not scramble to fix.</li>\n</ul>",
+      "soap": {
+        "subjective": "",
+        "objective": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "dap": {
+        "data": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "tags": [
+        "Defusion",
+        "ACT",
+        "ADHD Pacing"
+      ],
+      "createdAt": "2026-11-01T16:26:29.490Z",
+      "updatedAt": "2026-11-01T16:26:29.490Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6924",
+      "therapist_id": "6ae768350d8fafb9763a68be",
+      "client_id": "6ae768350d8fafb9763a68f3",
+      "session_id": null,
+      "title": "Session 4: Values Clarification & Defusion from Impostor Thoughts",
+      "type": "private",
+      "format": "soap",
+      "content": "",
+      "soap": {
+        "subjective": "Client reports exhaustion from masked ADHD symptoms at work. Feels constant pressure to over-deliver.",
+        "objective": "High verbal cadence, animated affect. Insight intact. Good rapport.",
+        "assessment": "Fusion with belief \"If I rest, I am lazy\". High cognitive avoidance of uncomfortable emotional states.",
+        "plan": "1. Introduce ACT \"Leaves on a Stream\" defusion exercise.\n2. Implement 25-minute Pomodoro pacing with mandatory screen-free breaks."
+      },
+      "dap": {
+        "data": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "tags": [
+        "ACT",
+        "Adult ADHD",
+        "Executive Coaching"
+      ],
+      "createdAt": "2026-11-01T16:26:29.490Z",
+      "updatedAt": "2026-11-01T16:26:29.490Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6933",
+      "therapist_id": "6ae768350d8fafb9763a68be",
+      "client_id": "6ae768350d8fafb9763a68f5",
+      "session_id": null,
+      "title": "Session 2: Somatic Grounding & Sleep Hygiene",
+      "type": "private",
+      "format": "soap",
+      "content": "",
+      "soap": {
+        "subjective": "Client experiencing midday dips in energy and self-criticism regarding career trajectory.",
+        "objective": "Calm, receptive. Expressed relief upon discussing existential questions without judgment.",
+        "assessment": "Mild reactive depressive symptoms associated with career transition. Strong resilience resources.",
+        "plan": "1. Establish morning sunlight exposure routine.\n2. Daily 5-minute sensory grounding practice."
+      },
+      "dap": {
+        "data": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "tags": [
+        "Mood Stabilization",
+        "Somatic Grounding"
+      ],
+      "createdAt": "2026-11-01T16:26:29.495Z",
+      "updatedAt": "2026-11-01T16:26:29.495Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6934",
+      "therapist_id": "6ae768350d8fafb9763a68be",
+      "client_id": "6ae768350d8fafb9763a68f5",
+      "session_id": null,
+      "title": "Somatic Grounding & Anchoring",
+      "type": "shared",
+      "format": "freeform",
+      "content": "<h3>5-4-3-2-1 Sensory Reset</h3>\n<p>Whenever your thoughts pull you into rumination about the future, pause and name:</p>\n<ul>\n  <li>5 things you can see around you</li>\n  <li>4 things you can physically feel (feet on floor, clothes on shoulders)</li>\n  <li>3 things you can hear</li>\n  <li>2 things you can smell</li>\n  <li>1 thing you can taste</li>\n</ul>\n<p>This anchors your nervous system back in the objective present moment.</p>",
+      "soap": {
+        "subjective": "",
+        "objective": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "dap": {
+        "data": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "tags": [
+        "Grounding",
+        "Sensory Reset"
+      ],
+      "createdAt": "2026-11-01T16:26:29.495Z",
+      "updatedAt": "2026-11-01T16:26:29.495Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6942",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f7",
+      "session_id": null,
+      "title": "Session 3: Attachment Protest Behaviors & Emotional Regulation",
+      "type": "private",
+      "format": "soap",
+      "content": "",
+      "soap": {
+        "subjective": "Client reported recognizing defensive withdrawal pattern during conflict over holiday planning.",
+        "objective": "Demonstrated increased reflective capacity. Acknowledged underlying vulnerability.",
+        "assessment": "Anxious-avoidant relational dynamic. Client reacts to perceived disconnection with immediate pursuit or protest.",
+        "plan": "1. Role-play expressing soft primary emotions (\"I feel scared\") rather than secondary anger.\n2. Agree on a mutually accepted 15-minute cool-down ritual."
+      },
+      "dap": {
+        "data": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "tags": [
+        "EFT",
+        "Couples Therapy",
+        "Attachment"
+      ],
+      "createdAt": "2026-11-01T16:26:29.501Z",
+      "updatedAt": "2026-11-01T16:26:29.501Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6943",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f7",
+      "session_id": null,
+      "title": "Identifying Primary vs Secondary Emotions",
+      "type": "shared",
+      "format": "freeform",
+      "content": "<h3>Soft Vulnerability vs Hard Defensiveness</h3>\n<p>When disagreements happen, our defensive armor (anger, blame, sarcasm) shows up first. Beneath that armor is usually a tender primary emotion: fear of rejection, sadness, or a longing for closeness.</p>\n<h4>Communication Homework:</h4>\n<p>Use the simple formula: <em>\"When [event] happened, I felt [primary soft emotion], because I value our connection.\"</em></p>",
+      "soap": {
+        "subjective": "",
+        "objective": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "dap": {
+        "data": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "tags": [
+        "EFT",
+        "Communication Tools"
+      ],
+      "createdAt": "2026-11-01T16:26:29.501Z",
+      "updatedAt": "2026-11-01T16:26:29.501Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6951",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f9",
+      "session_id": null,
+      "title": "Session 2: Boundary Setting Without Excessive Justification",
+      "type": "private",
+      "format": "soap",
+      "content": "",
+      "soap": {
+        "subjective": "Client felt intense guilt after saying \"No\" to hosting relatives during festival weekend.",
+        "objective": "Affect brightened as session progressed. High willingness to explore self-compassion.",
+        "assessment": "Family system enmeshment where boundaries were historically treated as personal rejection.",
+        "plan": "1. Practice concise, respectful boundary statements without over-explaining.\n2. Journal feelings of guilt as \"growing pains\" rather than wrongdoing."
+      },
+      "dap": {
+        "data": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "tags": [
+        "Family Systems",
+        "Boundaries"
+      ],
+      "createdAt": "2026-11-01T16:26:29.506Z",
+      "updatedAt": "2026-11-01T16:26:29.506Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a6952",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "client_id": "6ae768350d8fafb9763a68f9",
+      "session_id": null,
+      "title": "Setting Clear & Loving Boundaries",
+      "type": "shared",
+      "format": "freeform",
+      "content": "<h3>Healthy Boundaries Are Kindness</h3>\n<p>A boundary is not a wall to push people away; it is a clear door with a lock so you can welcome others without depleting yourself.</p>\n<h4>Clean Boundary Scripts:</h4>\n<ul>\n  <li><em>\"I love you and want to spend time together, but I am unable to host this weekend.\"</em></li>\n  <li><em>\"I need downtime this evening to recharge. Let us catch up on Sunday.\"</em></li>\n</ul>\n<p>Notice that you do not need to invent excuses. A simple, gracious statement is enough.</p>",
+      "soap": {
+        "subjective": "",
+        "objective": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "dap": {
+        "data": "",
+        "assessment": "",
+        "plan": ""
+      },
+      "tags": [
+        "Boundaries",
+        "Assertiveness"
+      ],
+      "createdAt": "2026-11-01T16:26:29.506Z",
+      "updatedAt": "2026-11-01T16:26:29.506Z",
+      "__v": 0
+    }
+  ],
+  "tiers": [
+    {
+      "_id": "6ae768350d8fafb9763a68ad",
+      "tier": "free",
+      "displayName": "Free Starter",
+      "pricePerMonthINR": 0,
+      "caps": {
+        "activeClients": 5,
+        "monthlySessions": 15
+      },
+      "features": {
+        "noteTemplates": [
+          "freeform"
+        ],
+        "analyticsDepth": "basic_counts",
+        "canSellPackages": false,
+        "automatedWhatsApp": false,
+        "customBranding": false,
+        "prioritySupport": false
+      },
+      "description": "Essential toolkit for starting practitioners with up to 5 active clients.",
+      "createdAt": "2026-11-01T16:26:29.375Z",
+      "updatedAt": "2026-11-01T16:26:29.375Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a68af",
+      "tier": "pro",
+      "displayName": "Clinical Pro",
+      "pricePerMonthINR": 3499,
+      "caps": {
+        "activeClients": 999999,
+        "monthlySessions": 999999
+      },
+      "features": {
+        "noteTemplates": [
+          "freeform",
+          "soap",
+          "dap"
+        ],
+        "analyticsDepth": "advanced_aggregation",
+        "canSellPackages": true,
+        "automatedWhatsApp": true,
+        "customBranding": true,
+        "prioritySupport": true
+      },
+      "description": "Scale without limits with advanced aggregation analytics, full DAP/SOAP templates, and priority support.",
+      "createdAt": "2026-11-01T16:26:29.375Z",
+      "updatedAt": "2026-11-01T16:26:29.375Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a68ae",
+      "tier": "starter",
+      "displayName": "Solo Practitioner",
+      "pricePerMonthINR": 1499,
+      "caps": {
+        "activeClients": 25,
+        "monthlySessions": 100
+      },
+      "features": {
+        "noteTemplates": [
+          "freeform",
+          "soap"
+        ],
+        "analyticsDepth": "standard_trends",
+        "canSellPackages": true,
+        "automatedWhatsApp": true,
+        "customBranding": true,
+        "prioritySupport": false
+      },
+      "description": "Full practice autonomy with SOAP clinical notes, packages, and WhatsApp reminders.",
+      "createdAt": "2026-11-01T16:26:29.375Z",
+      "updatedAt": "2026-11-01T16:26:29.375Z",
+      "__v": 0
+    }
+  ],
+  "availabilities": [
+    {
+      "_id": "6ae768350d8fafb9763a68c2",
+      "therapist_id": "6ae768350d8fafb9763a68bc",
+      "weeklySchedule": [
+        {
+          "dayOfWeek": 1,
+          "dayName": "Monday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "18:00"
+            }
+          ],
+          "_id": "6ae76a00210927b1459a6e45"
+        },
+        {
+          "dayOfWeek": 2,
+          "dayName": "Tuesday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "18:00"
+            }
+          ],
+          "_id": "6ae76a00210927b1459a6e46"
+        },
+        {
+          "dayOfWeek": 3,
+          "dayName": "Wednesday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "18:00"
+            }
+          ],
+          "_id": "6ae76a00210927b1459a6e47"
+        },
+        {
+          "dayOfWeek": 4,
+          "dayName": "Thursday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "18:00"
+            }
+          ],
+          "_id": "6ae76a00210927b1459a6e48"
+        },
+        {
+          "dayOfWeek": 5,
+          "dayName": "Friday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "17:00"
+            }
+          ],
+          "_id": "6ae76a00210927b1459a6e49"
+        },
+        {
+          "dayOfWeek": 6,
+          "dayName": "Saturday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "14:00"
+            }
+          ],
+          "_id": "6ae76a00210927b1459a6e4a"
+        },
+        {
+          "dayOfWeek": 0,
+          "dayName": "Sunday",
+          "isActive": false,
+          "slots": [],
+          "_id": "6ae76a00210927b1459a6e4b"
+        }
+      ],
+      "bufferTimeMinutes": 15,
+      "sessionDurations": [
+        30,
+        45,
+        60,
+        90
+      ],
+      "timezone": "Asia/Kolkata",
+      "overrides": [],
+      "blockedSlots": [],
+      "createdAt": "2026-11-01T16:26:29.453Z",
+      "updatedAt": "2026-11-01T16:34:08.269Z",
+      "__v": 1
+    },
+    {
+      "_id": "6ae768350d8fafb9763a68d2",
+      "therapist_id": "6ae768350d8fafb9763a68c0",
+      "weeklySchedule": [
+        {
+          "dayOfWeek": 1,
+          "dayName": "Monday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "13:00"
+            },
+            {
+              "startTime": "14:30",
+              "endTime": "18:30"
+            }
+          ],
+          "_id": "6ae768350d8fafb9763a68d3"
+        },
+        {
+          "dayOfWeek": 2,
+          "dayName": "Tuesday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "13:00"
+            },
+            {
+              "startTime": "14:30",
+              "endTime": "18:30"
+            }
+          ],
+          "_id": "6ae768350d8fafb9763a68d4"
+        },
+        {
+          "dayOfWeek": 3,
+          "dayName": "Wednesday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "13:00"
+            },
+            {
+              "startTime": "14:30",
+              "endTime": "18:30"
+            }
+          ],
+          "_id": "6ae768350d8fafb9763a68d5"
+        },
+        {
+          "dayOfWeek": 4,
+          "dayName": "Thursday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "13:00"
+            },
+            {
+              "startTime": "14:30",
+              "endTime": "18:30"
+            }
+          ],
+          "_id": "6ae768350d8fafb9763a68d6"
+        },
+        {
+          "dayOfWeek": 5,
+          "dayName": "Friday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "13:00"
+            },
+            {
+              "startTime": "14:30",
+              "endTime": "17:00"
+            }
+          ],
+          "_id": "6ae768350d8fafb9763a68d7"
+        },
+        {
+          "dayOfWeek": 6,
+          "dayName": "Saturday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:30",
+              "endTime": "15:00"
+            }
+          ],
+          "_id": "6ae768350d8fafb9763a68d8"
+        },
+        {
+          "dayOfWeek": 0,
+          "dayName": "Sunday",
+          "isActive": false,
+          "slots": [],
+          "_id": "6ae768350d8fafb9763a68d9"
+        }
+      ],
+      "bufferTimeMinutes": 15,
+      "sessionDurations": [
+        30,
+        45,
+        60,
+        90
+      ],
+      "timezone": "Asia/Kolkata",
+      "overrides": [],
+      "blockedSlots": [],
+      "createdAt": "2026-11-01T16:26:29.453Z",
+      "updatedAt": "2026-11-01T16:26:29.453Z",
+      "__v": 0
+    },
+    {
+      "_id": "6ae768350d8fafb9763a68ca",
+      "therapist_id": "6ae768350d8fafb9763a68be",
+      "weeklySchedule": [
+        {
+          "dayOfWeek": 1,
+          "dayName": "Monday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "13:00"
+            },
+            {
+              "startTime": "14:30",
+              "endTime": "18:30"
+            }
+          ],
+          "_id": "6ae768350d8fafb9763a68cb"
+        },
+        {
+          "dayOfWeek": 2,
+          "dayName": "Tuesday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "13:00"
+            },
+            {
+              "startTime": "14:30",
+              "endTime": "18:30"
+            }
+          ],
+          "_id": "6ae768350d8fafb9763a68cc"
+        },
+        {
+          "dayOfWeek": 3,
+          "dayName": "Wednesday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "13:00"
+            },
+            {
+              "startTime": "14:30",
+              "endTime": "18:30"
+            }
+          ],
+          "_id": "6ae768350d8fafb9763a68cd"
+        },
+        {
+          "dayOfWeek": 4,
+          "dayName": "Thursday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "13:00"
+            },
+            {
+              "startTime": "14:30",
+              "endTime": "18:30"
+            }
+          ],
+          "_id": "6ae768350d8fafb9763a68ce"
+        },
+        {
+          "dayOfWeek": 5,
+          "dayName": "Friday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:00",
+              "endTime": "13:00"
+            },
+            {
+              "startTime": "14:30",
+              "endTime": "17:00"
+            }
+          ],
+          "_id": "6ae768350d8fafb9763a68cf"
+        },
+        {
+          "dayOfWeek": 6,
+          "dayName": "Saturday",
+          "isActive": true,
+          "slots": [
+            {
+              "startTime": "10:30",
+              "endTime": "15:00"
+            }
+          ],
+          "_id": "6ae768350d8fafb9763a68d0"
+        },
+        {
+          "dayOfWeek": 0,
+          "dayName": "Sunday",
+          "isActive": false,
+          "slots": [],
+          "_id": "6ae768350d8fafb9763a68d1"
+        }
+      ],
+      "bufferTimeMinutes": 15,
+      "sessionDurations": [
+        30,
+        45,
+        60,
+        90
+      ],
+      "timezone": "Asia/Kolkata",
+      "overrides": [],
+      "blockedSlots": [],
+      "createdAt": "2026-11-01T16:26:29.453Z",
+      "updatedAt": "2026-11-01T16:26:29.453Z",
+      "__v": 0
+    }
+  ]
+}
