@@ -410,7 +410,11 @@ const getTherapistSessions = async (req, res, next) => {
     const query = { therapist_id: req.therapist._id };
 
     if (status) {
-      query.status = status;
+      if (status === 'scheduled') {
+        query.status = { $in: ['scheduled', 'confirmed'] };
+      } else {
+        query.status = status;
+      }
     } else {
       query.status = { $ne: 'pending' };
     }

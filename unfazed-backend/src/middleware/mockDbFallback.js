@@ -415,9 +415,13 @@ const mockDbFallback = (req, res, next) => {
       list = list.filter((s) => s._id === req.query._id);
     }
     if (req.query?.status) {
-      list = list.filter((s) => s.status === req.query.status);
+      if (req.query.status === 'scheduled') {
+        list = list.filter((s) => s.status === 'scheduled' || s.status === 'confirmed');
+      } else {
+        list = list.filter((s) => s.status === req.query.status);
+      }
     }
-    return ok({ success: true, sessions: list });
+    return ok({ success: true, count: list.length, sessions: list });
   }
 
   // 11. Availability
@@ -539,27 +543,68 @@ const mockDbFallback = (req, res, next) => {
 
   // 17. Analytics
   if (method === 'get' && url === '/analytics') {
+    const payments = data.payments || [];
+    const sessions = data.sessions || [];
+    const clients = data.clients || [];
+
+    const grossRev = payments.reduce((sum, p) => sum + (Number(p.amount) || 0), 0) || 128000;
+    const netRev = Math.round(grossRev * 0.95);
+    const scheduledUpcoming = sessions.filter((s) => ['scheduled', 'confirmed'].includes(s.status)).length || 10;
+    const completedSessions = sessions.filter((s) => s.status === 'completed').length || 12;
+    const noShowSessions = sessions.filter((s) => s.status === 'no_show').length || 1;
+    const totalFinished = completedSessions + noShowSessions;
+    const noShowRate = totalFinished > 0 ? Math.round((noShowSessions / totalFinished) * 100 * 10) / 10 : 5.6;
+
+    const summary = {
+      totalNetRevenue: netRev,
+      totalGrossRevenue: grossRev,
+      activeClients: clients.length || 7,
+      totalClients: clients.length || 7,
+      noShowRate: noShowRate || 5.6,
+      completedSessions: completedSessions || 12,
+      scheduledUpcoming: scheduledUpcoming || 10,
+    };
+
+    const kpis = {
+      totalRevenue: grossRev,
+      activeClientsCount: clients.length || 7,
+      monthlySessionsCount: sessions.length || 19,
+      completedSessionsCount: completedSessions || 12,
+      noShowRatePct: noShowRate || 5.6,
+    };
+
+    const charts = {
+      revenueTrend: [
+        { month: '2026-06', grossRevenue: 18000, netRevenue: 17100, platformFeeTotal: 900, transactionCount: 8 },
+        { month: '2026-07', grossRevenue: 24500, netRevenue: 23275, platformFeeTotal: 1225, transactionCount: 11 },
+        { month: '2026-08', grossRevenue: 27000, netRevenue: 25650, platformFeeTotal: 1350, transactionCount: 12 },
+        { month: '2026-09', grossRevenue: 31500, netRevenue: 29925, platformFeeTotal: 1575, transactionCount: 14 },
+        { month: '2026-10', grossRevenue: 35000, netRevenue: 33250, platformFeeTotal: 1750, transactionCount: 15 },
+        { month: '2026-11', grossRevenue: grossRev, netRevenue: netRev, platformFeeTotal: Math.round(grossRev * 0.05), transactionCount: payments.length || 15 },
+      ],
+      sessionBreakdown: [
+        { name: 'Completed', value: completedSessions, color: '#10B981' },
+        { name: 'Scheduled', value: scheduledUpcoming, color: '#3B82F6' },
+        { name: 'Cancelled', value: sessions.filter((s) => s.status === 'cancelled').length || 1, color: '#F59E0B' },
+        { name: 'No Show', value: noShowSessions, color: '#EF4444' },
+      ],
+      sessionTypes: [
+        { sessionType: 'Individual Therapy', count: 10, revenue: 25000 },
+        { sessionType: 'CBT Consultation', count: 5, revenue: 12500 },
+        { sessionType: 'Couples Counseling', count: 4, revenue: 10000 },
+      ],
+      clientStatus: [
+        { _id: 'active', count: clients.length || 7 },
+      ],
+    };
+
     return ok({
       success: true,
-      kpis: {
-        totalRevenue: 128000,
-        activeClientsCount: data.clients?.length || 7,
-        monthlySessionsCount: data.sessions?.length || 18,
-        completedSessionsCount: 12,
-        noShowRatePct: 5.6,
-      },
-      monthlyRevenue: [
-        { month: '2026-06', revenue: 18000, sessions: 8 },
-        { month: '2026-07', revenue: 24500, sessions: 11 },
-        { month: '2026-08', revenue: 27000, sessions: 12 },
-        { month: '2026-09', revenue: 31500, sessions: 14 },
-        { month: '2026-10', revenue: 35000, sessions: 15 },
-      ],
-      attendanceBreakdown: [
-        { status: 'Completed', count: 12, percentage: 67 },
-        { status: 'Scheduled', count: 5, percentage: 28 },
-        { status: 'No-Show', count: 1, percentage: 5 },
-      ],
+      summary,
+      kpis,
+      charts,
+      monthlyRevenue: charts.revenueTrend.map((r) => ({ month: r.month, revenue: r.grossRevenue, sessions: r.transactionCount })),
+      attendanceBreakdown: charts.sessionBreakdown.map((b) => ({ status: b.name, count: b.value, percentage: Math.round((b.value / (sessions.length || 1)) * 100) })),
     });
   }
 

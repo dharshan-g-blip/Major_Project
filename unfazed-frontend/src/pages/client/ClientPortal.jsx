@@ -155,7 +155,10 @@ export const ClientPortal = () => {
 
           {/* Tab 1: Appointments (Divided into Upcoming and Previous) */}
           {activeTab === 'appointments' && (() => {
-            const upcomingSessions = portalData.sessions?.filter((s) => s.status === 'scheduled' && s.paymentStatus === 'paid') || [];
+            const upcomingSessions = portalData.sessions?.filter((s) => 
+              (s.status === 'scheduled' || s.status === 'confirmed') && 
+              (s.paymentStatus === 'paid' || s.paymentStatus === 'completed' || s.status === 'confirmed' || s.status === 'scheduled')
+            ) || [];
             const previousSessions = portalData.sessions?.filter((s) => s.status === 'completed' || s.status === 'cancelled' || s.status === 'no_show') || [];
 
             return (
